@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(32, 88, 255);
+    color: aliceblue;
+}
+
+button {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid rgb(128, 240, 206);
+    background-color: rgb(9, 231, 157);
+    color: rgb(0, 168, 118);
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+}
+
+#counter {
+    display: flex;
+}
+
+#currentNumber {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    font-size: 16pt;
+}
